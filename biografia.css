@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #000000db;
+  color: aqua;
+}
+
+body header h1{
+  font-size: 40px;
+}
+
+body img{
+  width: 250px;
+  aspect-ratio: 2/3;
+  border-radius: 25px;
+  margin-top: 25px;
+}
+
+.main-info--container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  width: 70%;
+}
+
+.main-info--container h2{
+  font-size: 20px;
+  margin-bottom: 16px;
+}
+
+.favweb-info{
+  font-weight: 700;
+}
+
+.favweb-info a{
+  color: aqua; 
+}
+
+.libros-section-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+}
+
+.libros-section-container h2{
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+.libros-section-container ol{
+  font-weight: 600;
+}
+
+.hobbies-section-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+}
+
+.hobbies-section-container h2{
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+.hobbies-section-container ul{
+  font-weight: 600;
+}
+
+.cualidades-section-container{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.cualidades-section-container h2{
+  margin-top: 40px;
+  margin-bottom: 26px;
+  display: flex;
+  justify-content: center;
+}
+
+.cualidades-section-container h3{
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+.cualidades-section-container p{
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+/* TABLA STYLING */
+.table-section-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+}
+
+.table-section-container h2{
+  margin: 30px;
+}
+
+.table-section-container table{
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+.table-section-container table td{
+  border: 1px solid aqua;
+  padding: 10px;
+}
+
+.table-section-container table th{
+  border: 1px solid aqua;
+  padding: 10px;
+}
+
+.table-section-container table tr:nth-child(even){
+  background-color: #000000bb;
+}
+
+.table-section-container table tr:nth-child(odd){
+  background-color: #000000bb;
+}
