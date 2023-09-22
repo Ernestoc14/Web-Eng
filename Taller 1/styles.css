@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-styles{
+  background-color: #fff;
+  color: #333;
+  font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.button {
+  color: white;
+  background-color: blue;
+  border-radius: 10px;
+  width: 170px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  text-align: center;
+}
+
+form{
+  width: 400px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+
+li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.problema3-link{
+  text-decoration: none;
+  color: #abaaaa;
+}
