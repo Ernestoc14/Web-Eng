@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculadora de Calificaciones en Física</title>
+  </head>
+  <body>
+    <h1>Calculadora de Calificaciones en Física</h1>
+    <h2>Ingrese los datos de los alumnos</h2>
+    <form action="calcular_calificaciones.php" method="POST">
+      <h3>Datos de Alumno 1</h3>
+      <label for="alumno1">Alumno 1:</label>
+      <input type="text" id="alumno1" name="alumno1" required /><br /><br />
+
+      <label for="cedula1">Cédula Alumno 1:</label>
+      <input type="text" id="cedula1" name="cedula1" required /><br /><br />
+
+      <label for="practica1">Parte Práctica (10%):</label>
+      <input
+        type="number"
+        id="practica1"
+        name="practica1"
+        step="0.01"
+        min="1"
+        max="5"
+        required
+      /><br />
+
+      <label for="problemas1">Parte de Problemas (50%):</label>
+      <input
+        type="number"
+        id="problemas1"
+        name="problemas1"
+        step="0.01"
+        min="1"
+        max="5"
+        required
+      /><br />
+
+      <label for="teoria1">Parte Teórica (40%):</label>
+      <input
+        type="number"
+        id="teoria1"
+        name="teoria1"
+        step="0.01"
+        min="1"
+        max="5"
+        required
+      /><br /><br />
+
+      <h3>Datos de Alumno 2</h3>
+      <label for="alumno2">Alumno 2:</label>
+      <input type="text" id="alumno2" name="alumno2" required /><br /><br />
+
+      <label for="cedula2">Cédula Alumno 2:</label>
+      <input type="text" id="cedula2" name="cedula2" required /><br /><br />
+
+      <label for="practica2">Parte Práctica (10%):</label>
+      <input
+        type="number"
+        id="practica2"
+        name="practica2"
+        step="0.01"
+        min="1"
+        max="5"
+        required
+      /><br />
+
+      <label for="problemas2">Parte de Problemas (50%):</label>
+      <input
+        type="number"
+        id="problemas2"
+        name="problemas2"
+        step="0.01"
+        min="1"
+        max="5"
+        required
+      /><br />
+
+      <label for="teoria2">Parte Teórica (40%):</label>
+      <input
+        type="number"
+        id="teoria2"
+        name="teoria2"
+        step="0.01"
+        min="1"
+        max="5"
+        required
+      /><br /><br />
+
+      <input type="submit" value="Calcular Calificaciones" />
+    </form>
+  </body>
+</html>
