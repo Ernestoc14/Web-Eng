@@ -3,17 +3,36 @@ programa que permita determinar el área y volumen de un cilindro dado su radio 
 
 
 <?php
-$radio = floatval(readline("Ingrese el radio del cilindro (R): "));
-$altura = floatval(readline("Ingrese la altura del cilindro (H): "));
+class Cilindro {
+  private $radio;
+  private $altura;
 
-// Calcula el área del cilindro
-$area_base = M_PI * pow($radio, 2); // Área de la base
-$area_lateral = 2 * M_PI * $radio * $altura; // Área lateral
-$area_total = 2 * $area_base + $area_lateral; // Área total
+  public function __construct($radio, $altura) {
+      $this->radio = $radio;
+      $this->altura = $altura;
+  }
 
-// Calcula el volumen del cilindro
-$volumen = $area_base * $altura;
+  public function calcularArea() {
+      $areaBase = 3.14159265359 * pow($this->radio, 2); // Área de la base (π * r^2)
+      $areaLateral = 2 * 3.14159265359 * $this->radio * $this->altura; // Área lateral (2π * r * h)
+      $areaTotal = 2 * $areaBase + $areaLateral; // Área total (2 * Área base + Área lateral)
+      return $areaTotal;
+  }
 
-echo "El área del cilindro es: $area_total\n";
-echo "El volumen del cilindro es: $volumen\n";
+  public function calcularVolumen() {
+      $volumen = 3.14159265359 * pow($this->radio, 2) * $this->altura; // Volumen (Área base * h)
+      return $volumen;
+  }
+}
+
+// Ejemplo 
+$radio = readline("Ingrese el radio del cilindro: ");
+$altura = readline("Ingrese la altura del cilindro: ");
+$cilindro = new Cilindro($radio, $altura); // Radio = 5, Altura = 10
+$area = $cilindro->calcularArea();
+$volumen = $cilindro->calcularVolumen();
+
+echo "Área del cilindro: " . $area . " unidades cuadradas\n";
+echo "Volumen del cilindro: " . $volumen . " unidades cúbicas\n";
+
 ?>
