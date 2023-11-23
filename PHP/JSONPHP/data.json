@@ -1,0 +1,8 @@
+
+{
+  "alumnos": [
+  {"nombre": "Juan", "edad": 25, "curso": "Matemáticas"},
+  {"nombre": "María", "edad": 22, "curso": "Historia"},
+  {"nombre": "Carlos", "edad": 27, "curso": "Ciencias"}
+  ]
+}
