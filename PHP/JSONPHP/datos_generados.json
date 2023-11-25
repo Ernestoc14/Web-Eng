@@ -1,0 +1,10 @@
+{
+    "nombre": "Juan",
+    "edad": 25,
+    "curso": "Licenciatura de Artes",
+    "notas": {
+        "arte": 90,
+        "historia": 85,
+        "ciencias": 92
+    }
+}
