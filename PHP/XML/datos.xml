@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<usuarios>
+  <usuario>
+    <id>1</id>
+    <nombre>Juan</nombre>
+    <edad>25</edad>
+  </usuario>
+  <usuario>
+    <id>2</id>
+    <nombre>Maria</nombre>
+    <edad>30</edad>
+  </usuario>
+</usuarios>
