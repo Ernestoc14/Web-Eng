@@ -9,7 +9,7 @@ body{
   padding-bottom: 20px;
 }
 /* Estilo de inputs, select y textareas */
-input[type=text], select, textarea{
+input[type=text], input[type=email] ,select, textarea{
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
