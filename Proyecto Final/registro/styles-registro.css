@@ -18,7 +18,7 @@ input[type=text], select, textarea{
   resize: vertical;
 }
 
-input[type=date], input[type=time] {
+input[type=password]{
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -26,13 +26,13 @@ input[type=date], input[type=time] {
   box-sizing: border-box;
 }
 
-/* Style the label to display next to the inputs */
+/* Estilo para lable al lado de las inputs */
 label {
   padding: 12px 12px 12px 0;
   display: inline-block;
 }
 
-/* Style the submit button */
+/* Estilos del boton de confirmacion */
 input[type=submit] {
   background-color: #9d3940;
   color: rgb(255, 255, 255);
