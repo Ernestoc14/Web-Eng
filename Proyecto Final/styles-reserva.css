@@ -34,7 +34,8 @@ label {
 
 /* Style the submit button */
 input[type=submit] {
-  background-color: #4b4b4b;
+  background-color: #9d3940;
+  /* https://www.youtube.com/watch?v=ejFt82KnXrU */
   color: rgb(255, 255, 255);
   font-weight: bold;
   padding: 12px 20px;
